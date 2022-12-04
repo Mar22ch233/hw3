@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            text-align: center;
+            margin: 0 auto;
+        }
+        #header{
+            width: 100%;
+            height: 160px;
+            text-align: center;
+            
+        }
+        #h1{
+            margin-top:80px;
+            margin-left: 0;
+            color: deeppink;
+            font: 800;
+            font-size: larger;
+        }
+        #header>:first-child{
+            float: left;
+            width: 50%;
+            height: 160px;
+            background-image: url(bg3.jpg);
+        }
+        #header>:nth-child(2){
+            float: right;
+            color: white;
+            margin-top: 110px;
+            margin-right: 30px;
+            font-size: large;
+            font-weight:800;
+        }
+        #header>:nth-child(3){
+            float: right;
+            color: white;
+            margin-top: 110px;
+            margin-right: 30px;
+            font-size: large;
+            font-weight:800;
+        }
+        #header>:nth-child(4){
+            float: right;
+            color: white;
+            margin-top: 110px;
+            margin-right: 30px;
+            font-size: large;
+            font-weight:800;
+        }
+        #header>:nth-child(5){
+            float: right;
+            color: white;
+            margin-top: 110px;
+            margin-right: 30px;
+            font-size: large;
+            font-weight:800;
+        }
+
+        table{
+            margin: auto;
+            text-align: center;
+           
+        }
+        td{
+            padding: 0%;
+            width: 340px;
+            height: 340px;
+            border: solid 3px;
+            margin: 5px 5px 5px 5px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+        tr{
+            margin-top: 8px;
+            float: none;
+        }
+        th{
+            text-align: center;
+            size: 5px;
+        }
+        caption{
+            font-size: 40px;
+            font-family: fantasy;
+
+        }
+        #static{
+            top: 240px;
+            position: fixed;
+        }
+        .s1{
+            width: 80px;
+            border: solid;
+            background-color: #000;
+            color: pink;
+            margin-bottom: 20px;
+        }
+        .s2{
+            width: 80px;
+            border: solid;
+            background-color: #000;
+            color: pink;
+            margin-bottom: 20px;
+        }
+        .s3{
+            width: 80px;
+            border: solid;
+            background-color: #000;
+            color: pink;
+            margin-bottom: 20px;
+        }
+        .dropbtn {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+        .dropdown-content a {
+            color: black;
+            padding: 5px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: grey;
+        }
+        a{
+            display: block;
+            color: pink;
+            text-decoration: none;
+        }
+        a:hover{
+            color: deeppink;
+        }
+        table{
+            margin-bottom: 100px;
+        }
+        nav{
+            background-color: #000;
+            height: 150px;
+            width: 100%;
+        }
+        #last{
+            text-align: center;
+            display: block;
+            color:white;
+            font-size: x-small;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div ><div id="h1">
+            尝點甜头
+        </div></div>
+        <div class="dropdown">
+            <button class="dropbtn">了解详情</button>
+            <div class="dropdown-content">
+            <a href="#">品牌背景</a>
+            <a href="#">设计理念</a>
+            <a href="#">发展历史</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">加入我们</button>
+            <div class="dropdown-content">
+                <a href="#">详情咨询</a>
+                <a href="#">全国分店</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">甜点王国</button>
+            <div class="dropdown-content">
+                <a href="#">当季热销</a>
+                <a href="#">产品资料</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">定制服务</button>
+            <div class="dropdown-content">
+                <a href="#">慕斯系列</a>
+                <a href="#">生巧系列</a>
+                <a href="#">千层系列</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="static">
+        <div class="s1"><a href="#vip">VIP</a>     
+        </div>
+        <div class="s2"><a href="#我要反馈">我要反馈</a>  
+        </div>
+        <div class="s3"><a href="#客服中心">客服中心</a>    
+        </div>
+
+    </div>
+    <h1>嘟咕嘟咕甜品店</h1>
+    <table width="65%" >
+        <caption>当季热销</caption>
+       <tr>
+        <td><img src="1.jpg" height="300" width="300"></td>
+        <th>半熟芝士</th>
+        <td><img src="2.jpg" height="300" width="300"></td>
+        <th>奶酪流心卷</th>
+       </tr>
+       <tr>
+        <td><img src="10.jpg" height="300" width="300"></td>
+        <th>芋泥冰淇淋</th>
+        <td><img src="9.jpg" height="300" width="300"></td>
+        <th>芋泥奶酪球</th>
+       </tr>
+       <tr>
+        <td><img src="3.jpg" height="300" width="300"></td>
+        <th>栗子蛋糕</th>
+        <td><img src="4.jpg" height="300" width="300"></td>
+        <th>奶油厚切蛋糕</th>
+       </tr>
+       <tr>
+        <td><img src="5.jpg" height="300" width="300"></td>
+        <th>咸芝士饼干</th>
+        <td><img src="6.jpg" height="300" width="300"></td>
+        <th>蛋黄酥</th>
+       </tr>
+    </table>
+        <nav>
+            <div id="last">
+                                     <br>
+                                     <br>
+                                     <br>
+                                     <br>
+                 @企鹅食品有限公司|备份号198882983748 <br>
+                 详情信息请咨询qiezywzzysweet@163.com <br>
+            </div>
+        </nav>
+</body>
+</html>
